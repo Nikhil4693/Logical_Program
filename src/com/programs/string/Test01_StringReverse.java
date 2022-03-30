@@ -3,17 +3,16 @@ package com.programs.string;
 public class Test01_StringReverse {
 
 	public static void main(String a[]) {
-		String str = "Java 2 career";
-		String arr[] = str.split("");
-		System.out.print("Reversed String of " + str + ":");
+		String str = "ab2cde2fghi2kjlmn2op";
+		String arr[] = str.split("2");
+		int j = 0;
 		for (int i = arr.length - 1; i >= 0; i--) {
-			char temp[] = arr[i].toCharArray();
-			for (int j = temp.length - 1; j >= 0; j--) {
-				System.out.print(temp[j]);
-
+			char[] charArr = arr[i].toCharArray();
+			for (int k = charArr.length - 1; k >= 0; k--) {
+				System.out.print(charArr[k]);
 			}
-			System.out.print("");
+			System.out.print(" ");
 		}
-	}
 
+	}
 }
