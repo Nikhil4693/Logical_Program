@@ -1,4 +1,4 @@
-package com.programs.string;
+package com.programs.arrays;
 
 import java.util.Scanner;
 
@@ -27,11 +27,6 @@ public class characterOccurence {
 				}
 				System.out.println(ch[i] + " occurred " + count + " times");
 			}
-//			String nst = " ";
-//			for (int i = 0; i < n; i++) {
-//				nst = nst + ch[i];
-//			}
-//			System.out.println(nst);
 		}
 	}
 

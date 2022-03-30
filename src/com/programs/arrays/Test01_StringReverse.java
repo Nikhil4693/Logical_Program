@@ -1,4 +1,4 @@
-package com.programs.string;
+package com.programs.arrays;
 
 public class Test01_StringReverse {
 
