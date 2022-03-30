@@ -28,7 +28,7 @@ public class Test01_VowelsAndConsonents {
 			}
 		}
 
-		return new String(arr2);
+		return new String(arr);
 	}
 
 }
